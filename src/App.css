@@ -1,22 +1,48 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+:root {
+  --var-back: rgb(255, 255, 255);
+}
+.container {
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
+.row {
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: var(--var-back) !important;
+  transition: background-color 1s ease, color 0.2s linear; 
+}
+
+.btn_for_background {
+  background-color: var(--var-back) !important;
+  transition: background-color 1s ease, color 0.2s linear; 
+}
+
+.btn-primary:hover {
+  border-color: var(--var-back) !important;
+}
+
+.btn-primary {
+  border-color: var(--var-back) !important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem var(--var-back) !important;
+}
+
+.conteiner-soc {
+  width: 20%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #09d3ac;
+.btn_for_background_link {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--var-back) !important;
 }

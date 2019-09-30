@@ -1,10 +1,14 @@
 {
   "name": "quote-machine",
   "version": "0.1.0",
-  "homepage": "https://nikito599.github.io/FreeCodeCampProjects/quote-machine",
+  "homepage": "https://nikito599.github.io/quote-machine",
   "private": true,
   "dependencies": {
+    "jquery": "^3.4.1",
+    "jquery-color": "^1.0.0",
+    "location": "0.0.1",
     "react": "^16.10.1",
+    "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.10.1",
     "react-scripts": "3.1.2"
   },
